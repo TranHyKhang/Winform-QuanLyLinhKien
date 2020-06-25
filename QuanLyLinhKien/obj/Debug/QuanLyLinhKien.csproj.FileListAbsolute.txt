@@ -1,0 +1,9 @@
+C:\Users\ASUS\OneDrive\Desktop\QuanLyLinhKien\QuanLyLinhKien\bin\Debug\QuanLyLinhKien.exe.config
+C:\Users\ASUS\OneDrive\Desktop\QuanLyLinhKien\QuanLyLinhKien\bin\Debug\QuanLyLinhKien.exe
+C:\Users\ASUS\OneDrive\Desktop\QuanLyLinhKien\QuanLyLinhKien\bin\Debug\QuanLyLinhKien.pdb
+C:\Users\ASUS\OneDrive\Desktop\QuanLyLinhKien\QuanLyLinhKien\obj\Debug\QuanLyLinhKien.Properties.Resources.resources
+C:\Users\ASUS\OneDrive\Desktop\QuanLyLinhKien\QuanLyLinhKien\obj\Debug\QuanLyLinhKien.csproj.GenerateResource.cache
+C:\Users\ASUS\OneDrive\Desktop\QuanLyLinhKien\QuanLyLinhKien\obj\Debug\QuanLyLinhKien.csproj.CoreCompileInputs.cache
+C:\Users\ASUS\OneDrive\Desktop\QuanLyLinhKien\QuanLyLinhKien\obj\Debug\QuanLyLinhKien.exe
+C:\Users\ASUS\OneDrive\Desktop\QuanLyLinhKien\QuanLyLinhKien\obj\Debug\QuanLyLinhKien.pdb
+C:\Users\ASUS\OneDrive\Desktop\QuanLyLinhKien\QuanLyLinhKien\obj\Debug\QuanLyLinhKien.FormLogin.resources

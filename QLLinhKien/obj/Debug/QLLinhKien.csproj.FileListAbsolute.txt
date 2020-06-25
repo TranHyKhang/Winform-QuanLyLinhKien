@@ -1,0 +1,15 @@
+C:\Users\ASUS\OneDrive\Desktop\QuanLyLinhKien\QLLinhKien\bin\Debug\QLLinhKien.exe.config
+C:\Users\ASUS\OneDrive\Desktop\QuanLyLinhKien\QLLinhKien\bin\Debug\QLLinhKien.exe
+C:\Users\ASUS\OneDrive\Desktop\QuanLyLinhKien\QLLinhKien\bin\Debug\QLLinhKien.pdb
+C:\Users\ASUS\OneDrive\Desktop\QuanLyLinhKien\QLLinhKien\obj\Debug\QLLinhKien.Form1.resources
+C:\Users\ASUS\OneDrive\Desktop\QuanLyLinhKien\QLLinhKien\obj\Debug\QLLinhKien.Properties.Resources.resources
+C:\Users\ASUS\OneDrive\Desktop\QuanLyLinhKien\QLLinhKien\obj\Debug\QLLinhKien.csproj.GenerateResource.cache
+C:\Users\ASUS\OneDrive\Desktop\QuanLyLinhKien\QLLinhKien\obj\Debug\QLLinhKien.csproj.CoreCompileInputs.cache
+C:\Users\ASUS\OneDrive\Desktop\QuanLyLinhKien\QLLinhKien\obj\Debug\QLLinhKien.exe
+C:\Users\ASUS\OneDrive\Desktop\QuanLyLinhKien\QLLinhKien\obj\Debug\QLLinhKien.pdb
+C:\Users\ASUS\OneDrive\Desktop\QuanLyLinhKien\QLLinhKien\obj\Debug\QLLinhKien.csprojAssemblyReference.cache
+C:\Users\ASUS\OneDrive\Desktop\QuanLyLinhKien\QLLinhKien\obj\Debug\QLLinhKien.Products.resources
+C:\Users\ASUS\OneDrive\Desktop\QuanLyLinhKien\QLLinhKien\obj\Debug\QLLinhKien.AddProduct.resources
+C:\Users\ASUS\OneDrive\Desktop\QuanLyLinhKien\QLLinhKien\obj\Debug\QLLinhKien.Update.resources
+C:\Users\ASUS\OneDrive\Desktop\QuanLyLinhKien\QLLinhKien\obj\Debug\QLLinhKien.ShowBill.resources
+C:\Users\ASUS\OneDrive\Desktop\QuanLyLinhKien\QLLinhKien\obj\Debug\QLLinhKien.addNewBil.resources
