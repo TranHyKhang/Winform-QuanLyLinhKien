@@ -16,7 +16,6 @@ namespace QLLinhKien
         {
             InitializeComponent();
         }
-
         private void button1_Click(object sender, EventArgs e)
         {
             string mslk = txtMSLK.Text;

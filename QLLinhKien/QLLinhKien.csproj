@@ -139,5 +139,35 @@
   <ItemGroup>
     <None Include="Resources\sign_in %281%29.png" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\search.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\search %281%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\mail_find.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\garbage.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\list_remove.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\erase.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cart.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\edit_add.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pencil_small.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\sort_neutral_green.png" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

@@ -45,6 +45,7 @@
             // button1
             // 
             this.button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
             this.button1.Location = new System.Drawing.Point(119, 436);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(119, 39);
@@ -57,6 +58,7 @@
             // 
             this.rbtnHetHang.AutoSize = true;
             this.rbtnHetHang.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.rbtnHetHang.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
             this.rbtnHetHang.Location = new System.Drawing.Point(377, 339);
             this.rbtnHetHang.Name = "rbtnHetHang";
             this.rbtnHetHang.Size = new System.Drawing.Size(112, 29);
@@ -69,6 +71,7 @@
             this.rbtnConHang.AutoSize = true;
             this.rbtnConHang.Checked = true;
             this.rbtnConHang.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.rbtnConHang.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
             this.rbtnConHang.Location = new System.Drawing.Point(240, 339);
             this.rbtnConHang.Name = "rbtnConHang";
             this.rbtnConHang.Size = new System.Drawing.Size(119, 29);
@@ -88,6 +91,7 @@
             // txtGia
             // 
             this.txtGia.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtGia.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
             this.txtGia.Location = new System.Drawing.Point(248, 264);
             this.txtGia.Name = "txtGia";
             this.txtGia.Size = new System.Drawing.Size(204, 30);
@@ -105,7 +109,7 @@
             // 
             this.label5.AutoSize = true;
             this.label5.Font = new System.Drawing.Font("Microsoft Sans Serif", 16.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label5.ForeColor = System.Drawing.Color.Red;
+            this.label5.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
             this.label5.Location = new System.Drawing.Point(165, 54);
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(217, 32);
@@ -116,6 +120,7 @@
             // 
             this.label4.AutoSize = true;
             this.label4.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label4.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
             this.label4.Location = new System.Drawing.Point(94, 339);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(100, 25);
@@ -126,6 +131,7 @@
             // 
             this.label3.AutoSize = true;
             this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label3.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
             this.label3.Location = new System.Drawing.Point(152, 269);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(42, 25);
@@ -136,6 +142,7 @@
             // 
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label2.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
             this.label2.Location = new System.Drawing.Point(71, 197);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(123, 25);
@@ -146,6 +153,7 @@
             // 
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
             this.label1.Location = new System.Drawing.Point(126, 131);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(68, 25);
@@ -155,6 +163,7 @@
             // button2
             // 
             this.button2.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button2.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
             this.button2.Location = new System.Drawing.Point(349, 436);
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(123, 39);

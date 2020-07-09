@@ -14,9 +14,6 @@ namespace QLLinhKien
 {
     public partial class Products : Form
     {
-        private string mslk;
-
-
         public Products()
         {
             InitializeComponent();
@@ -26,8 +23,6 @@ namespace QLLinhKien
         string connectionString = ConfigurationManager.ConnectionStrings["QuanLyLinhKien"].ConnectionString.ToString();
 
         SqlConnection connection;
-
-        public string Mslk { get => mslk; set => mslk = txtMSLK.Text; }
 
         public void View()
         {
@@ -52,6 +47,16 @@ namespace QLLinhKien
             reader.Close();
             command.Dispose();
             connection.Close();
+            foreach (ListViewItem x in listView1.Items)
+            {
+                if (x.SubItems[3].Text == "True")
+                {
+                    x.SubItems[3].Text = "Còn hàng";
+                }
+                else
+                    x.SubItems[3].Text = "Hết hàng";
+            }
+
         }
 
         public void SapXepTangDan()
@@ -152,14 +157,12 @@ namespace QLLinhKien
 
         private void button3_Click(object sender, EventArgs e)
         {
-             Mslk = txtMSLK.Text;
-
             foreach(ListViewItem x in listView1.Items)
             {
-                if (x.Text == Mslk)
+                if (x.Text == txtMSLK.Text)
                 {
                     DataProvider data = new DataProvider();
-                    data.XoaSanPham(Mslk);
+                    data.XoaSanPham(txtMSLK.Text);
                     MessageBox.Show("Bạn Đã Xóa Thành Công");
                     View();
                     txtMSLK.Text = "";
@@ -167,18 +170,30 @@ namespace QLLinhKien
                 }
 
             }
-            MessageBox.Show("Không Tìm Thấy Sản Phẩm");
+            MessageBox.Show("Không Tìm Thấy Sản Phẩm Cần Xóa");
             txtMSLK.SelectAll();
             txtMSLK.Focus();
         }
 
         private void button4_Click_1(object sender, EventArgs e)
         {
-            this.Hide();
-
-            Update formUpDate = new Update();
-
-            formUpDate.ShowDialog();
+            var flag = false;
+            foreach (ListViewItem x in listView1.Items)
+            {
+                if (x.Text == txtMSLK.Text)
+                {
+                    flag = true;
+                    this.Hide();
+                    Update formUpDate = new Update(txtMSLK.Text);
+                    formUpDate.ShowDialog();
+                }
+            }
+            if (flag == false)
+            {
+                MessageBox.Show("Không Tìm Thấy Sản Phẩm Cần Sửa");
+                txtMSLK.SelectAll();
+                txtMSLK.Focus();
+            }
         }
 
         private void button5_Click(object sender, EventArgs e)

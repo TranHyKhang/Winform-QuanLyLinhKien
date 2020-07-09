@@ -114,5 +114,17 @@ namespace QLLinhKien
                 View();
             }
         }
+
+        private void ShowBill_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void ShowBill_FormClosed(object sender, FormClosedEventArgs e)
+        {
+            this.Hide();
+            Products newProduct = new Products();
+            newProduct.ShowDialog();
+        }
     }
 }

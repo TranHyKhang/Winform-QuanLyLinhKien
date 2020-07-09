@@ -15,22 +15,27 @@ namespace QLLinhKien
 {
     public partial class Update : Form
     {
+        private string mslk;
         public Update()
         {
             InitializeComponent();
 
            
         }
+        public Update(string MSLK) : this()
+        {
+            this.mslk = MSLK;
+            txtMSLK.Text = mslk;
 
+        }
         private void button1_Click(object sender, EventArgs e)
         {
-            string mshh = txtMSLK.Text;
             string tenSanPham = txtTenLK.Text;
             int gia = int.Parse(txtGia.Text);
             bool tinhTrang = rbtnConHang.Checked ? true : false;
 
             DataProvider data = new DataProvider();
-            data.SuaSanPham(mshh, tenSanPham, gia, tinhTrang);
+            data.SuaSanPham(mslk, tenSanPham, gia, tinhTrang);
             //MessageBox.Show("Bạn Đã Nhập Sai MSHH", "Thông Báo!", MessageBoxButtons.OK, MessageBoxIcon.Error);
             MessageBox.Show("Bạn Sửa Thành Công", "Thông Báo!", MessageBoxButtons.OK, MessageBoxIcon.Information);
             this.Hide();
